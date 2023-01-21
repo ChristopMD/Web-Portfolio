@@ -17,7 +17,7 @@ const Hero = () => (
       <SectionText>
         I'm a full stack developer. Always learning new technologies to improve as a developer. Check my projects and technical knoledge below.
       </SectionText>
-      <Link href='/#projects'>
+      <Link href='/#projects' scroll={false}>
         <Button>Learn more</Button>
       </Link>
     </LeftSection>
