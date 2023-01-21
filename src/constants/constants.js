@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/1.png',
       tags: ['Javascript', 'Next.js'],
     source: 'https://github.com/ChristopMD/Web-Portfolio',
-    visit: 'https://google.com',
+    visit: 'https://web-portfolio-orpin-six.vercel.app/',
     id: 0,
   },
   {
