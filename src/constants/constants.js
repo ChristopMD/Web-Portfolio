@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['Laravel', 'PHP', 'React', 'JavaScript', 'MySQL'],
     source: 'https://github.com/ChristopMD/E-commerce',
-    visit: 'https://google.com',
+    visit: 'https://incandescent-haupia-4c384b.netlify.app/',
     id: 1,
   },
   {
