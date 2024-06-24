@@ -1,5 +1,4 @@
-import React from 'react';
-import { DiDjango, DiFirebase, DiLaravel, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiLaravel, DiReact } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -19,6 +18,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             JavaScript <br />
+            Fiori/UI5 <br />
             React.js <br />
             Next.js
           </ListParagraph>
@@ -30,6 +30,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
+            ABAP <br />
             PHP <br />
             Python <br />
             Laravel <br />
