@@ -1,8 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
 
-import { List, ListContainer, ListItem, ListParagraph } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle, SectionSubTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import { Section, SectionDivider, SectionSubTitle, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { List, ListContainer, ListItem, ListParagraph } from './TimeLineStyles';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -14,7 +13,7 @@ const Timeline = () => {
       < br/>
       <SectionTitle>Abou Me</SectionTitle>
       <SectionText>
-      I am 10th semester computer science student. I have knowledge in the areas of software development and data science. 
+      I am bachelor in Computer Science and a SAP Fiori/ABAP Consultant. Also I have knowledge in the areas of data science and software development. 
       I'm excited to contribute the knowledge that I have acquired during my academic training and work experience.
       </SectionText>
       <SectionSubTitle>Soft Skills</SectionSubTitle>
